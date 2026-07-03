@@ -43,6 +43,17 @@ const container = new ContainerBuilder().add(
 console.log(container.toJSON());
 ```
 
+## 📖 The Ultimate Beginner's Guide
+
+New to Components V2 or Discord.js? We highly recommend starting with our beginner-friendly guide.
+
+**[Read The Ultimate Beginner's Guide Here](https://github.com/demondevx/discord-container-kit/blob/main/docs/guide.md)** 
+
+This guide covers:
+- Why you must bypass `interaction.reply()`
+- The Magic `32768` Flag
+- Copy-pasteable examples for **every single component type** (Dropdowns, Buttons, Galleries, and more)
+
 ## Features
 
 * Prevents invalid Discord V2 component trees
