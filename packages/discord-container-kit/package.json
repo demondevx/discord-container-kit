@@ -1,6 +1,6 @@
 {
   "name": "discord-container-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fluent, type-safe builders for Discord Components V2 - built for discord.js v14",
   "author": "Demondev_",
   "license": "MIT",
@@ -58,5 +58,23 @@
   },
   "dependencies": {
     "discord-api-types": "^0.37.119"
+  },
+  "keywords": [
+    "discord",
+    "discordjs",
+    "components",
+    "container",
+    "builder",
+    "discord-ui",
+    "v2",
+    "discord-components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demondevx/discord-container-kit.git"
+  },
+  "homepage": "https://github.com/demondevx/discord-container-kit#readme",
+  "bugs": {
+    "url": "https://github.com/demondevx/discord-container-kit/issues"
   }
 }
