@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.DS_Store
+playground/node_modules/
+help-bot/node_modules/
+packages/discord-container-kit/node_modules/
+packages/discord-container-kit/dist/
+*.log

@@ -1,0 +1,13 @@
+{
+  "name": "help-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "discord-container-kit": "file:../packages/discord-container-kit"
+  }
+}
