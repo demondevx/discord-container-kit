@@ -15,6 +15,17 @@ This library exists to:
 
 Built for developers who want to stop fighting Discord's raw component JSON and focus on structure instead.
 
+## 📖 The Ultimate Beginner's Guide
+
+New to Components V2 or Discord.js? We highly recommend starting with our beginner-friendly guide.
+
+**[Read The Ultimate Beginner's Guide Here](guide.md)** 
+
+This guide covers:
+- Why you must bypass `interaction.reply()`
+- The Magic `32768` Flag
+- Copy-pasteable examples for **every single component type** (Dropdowns, Buttons, Galleries, and more)
+
 ## Installation
 
 ```bash
