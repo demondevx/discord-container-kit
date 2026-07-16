@@ -30,7 +30,9 @@ import {
   ContainerBuilder, SectionBuilder, TextDisplayBuilder, ButtonBuilder 
 } from "discord-container-kit";
 
-const container = new ContainerBuilder().add(
+const container = new ContainerBuilder()
+  .accent("blurple")
+  .add(
   new SectionBuilder()
     .add(
       new TextDisplayBuilder().content("## Hello World")
@@ -42,6 +44,31 @@ const container = new ContainerBuilder().add(
 
 console.log(container.toJSON());
 ```
+
+## 🎨 Supported Accent Colors
+You can add a colored sidebar to your containers using `.accent('colorname')` or `.accent('#HexCode')`. 
+
+| Color Name | Hex Code | | Color Name | Hex Code |
+| :--- | :--- | :--- | :--- | :--- |
+| **white** | `#FFFFFF` | | **aqua** | `#1ABC9C` |
+| **green** | `#57F287` | | **blue** | `#3498DB` |
+| **yellow** | `#FEE75C` | | **purple** | `#9B59B6` |
+| **fuchsia** | `#EB459E` | | **gold** | `#F1C40F` |
+| **orange** | `#E67E22` | | **red** | `#ED4245` |
+| **grey** | `#95A5A6` | | **navy** | `#34495E` |
+| **darkaqua** | `#11806A` | | **darkgreen** | `#1F8B4C` |
+| **darkblue** | `#206694` | | **darkpurple** | `#71368A` |
+| **darkgold** | `#C27C0E` | | **darkorange** | `#A84300` |
+| **darkred** | `#992D22` | | **darkgrey** | `#979C9F` |
+| **darkergrey** | `#7F8C8D` | | **lightgrey** | `#BCC0C0` |
+| **darknavy** | `#2C3E50` | | **blurple** | `#5865F2` |
+| **greyple** | `#99AAB5` | | **darkbutnotblack** | `#2C2F33` |
+| **notquiteblack** | `#23272A` | | **luminousvividpink**| `#E91E63` |
+| **darkvividpink**| `#AD1457` | | **black** | `#000000` |
+| **pink** | `#FFC0CB` | | **cyan** | `#00FFFF` |
+| **magenta** | `#FF00FF` | | **lime** | `#00FF00` |
+| **maroon** | `#800000` | | **olive** | `#808000` |
+| **teal** | `#008080` | | **silver** | `#C0C0C0` |
 
 ## 📖 The Ultimate Beginner's Guide
 

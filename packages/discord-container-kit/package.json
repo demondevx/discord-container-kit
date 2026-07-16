@@ -1,6 +1,6 @@
 {
   "name": "discord-container-kit",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Fluent, type-safe builders for Discord Components V2 - built for discord.js v14",
   "author": "Demondev_",
   "license": "MIT",
@@ -56,6 +56,9 @@
     "typescript-eslint": "^8.0.0",
     "undici": "^6.27.0",
     "vitest": "^3.2.0"
+  },
+  "overrides": {
+    "undici": "^6.27.0"
   },
   "dependencies": {
     "discord-api-types": "^0.37.119"
